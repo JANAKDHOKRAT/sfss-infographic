@@ -534,7 +534,7 @@ export default function SFSSInfographic() {
           paddingTop: 14,
         }}
       >
-        SFSS — Streaming Function Secret Sharing · Click any text to edit · Tab between views
+        SFSS — Streaming Function Secret Sharing .
       </div>
     </div>
   );
