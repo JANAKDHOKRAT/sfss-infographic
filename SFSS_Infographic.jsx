@@ -696,7 +696,13 @@ export default function SFSSInfographic() {
             Both constructions are non-interactive and provide perfect secrecy for non-target data.
           </div>
         </div>
-      )}
+        )}
+
+      <div style={{ marginTop: "40px", paddingTop: "40px", borderTop: "2px dashed rgba(0,212,255,0.3)" }}>
+        <VisualStoryboardSection />
+      </div>
+
+    
 
       {/* Footer */}
       <div
