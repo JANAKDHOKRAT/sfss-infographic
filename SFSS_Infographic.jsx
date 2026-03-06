@@ -13,6 +13,7 @@ const C = {
   light: "#B0C4DE",
   muted: "#607B96",
 };    
+
 // ============== THIS IS THE NEW CODE YOU PROVIDED ==============
 // I renamed it from SFSSInfographic to VisualStoryboardSection
 const VisualStoryboardSection = () => {
@@ -696,13 +697,12 @@ export default function SFSSInfographic() {
             Both constructions are non-interactive and provide perfect secrecy for non-target data.
           </div>
         </div>
-        )}
+      )}
 
+      {/* ============== HERE IS THE ONE ADDITION YOU NEEDED ============== */}
       <div style={{ marginTop: "40px", paddingTop: "40px", borderTop: "2px dashed rgba(0,212,255,0.3)" }}>
         <VisualStoryboardSection />
       </div>
-
-    
 
       {/* Footer */}
       <div
