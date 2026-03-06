@@ -69,9 +69,12 @@ const defaultData = {
   comparison: [
     { feature: "Target Points", p1: "Single point α", p2: "Multiple points {α₁, α₂, ...}" },
     { feature: "Core Primitive", p1: "Standard PRF (double-masking)", p2: "Key-Homomorphic PRF" },
-    { feature: "Masks Used", p1: "Two masks", p2: "One single mask" },
-    { feature: "Valid Output", p1: "Exact mⱼ — no error", p2: "mⱼ + small bounded error" },
-    { feature: "Invalid Output", p1: "0 (shares cancel)", p2: "0 (zero-key property)" },
+    { feature: "Encryption Formula", p1: "cⱼ = mⱼ − F(⟦r⟧₀, j) + F(−⟦r⟧₁, j)", p2: "cⱼ = mⱼ + F(k_kh, j)" },
+    { feature: "Masks Used", p1: "Two masks (add + subtract)", p2: "One single mask" },
+    { feature: "Key Distribution", p1: "PRF shares ⟦r⟧₀, ⟦r⟧₁ per point", p2: "Single master key k_kh" },
+    { feature: "Valid Output", p1: "Exact mⱼ — no error", p2: "mⱼ + small bounded error e_kh" },
+    { feature: "Invalid Output", p1: "Exactly 0 (shares cancel)", p2: "Exactly 0 (zero-key property)" },
+    { feature: "Special Property", p1: "Key shares from DPF output", p2: "Homomorphic key splitting" },
   ],
 };
 
