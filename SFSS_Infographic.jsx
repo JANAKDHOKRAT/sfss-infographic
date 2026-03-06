@@ -324,22 +324,7 @@ export default function SFSSInfographic() {
         padding: "24px 28px",
       }}
     >
-      {/* Edit hint */}
-      <div
-        style={{
-          background: "rgba(0,212,255,0.08)",
-          border: "1px dashed rgba(0,212,255,0.4)",
-          borderRadius: 6,
-          padding: "7px 14px",
-          fontSize: 12,
-          color: C.cyan,
-          marginBottom: 20,
-          textAlign: "center",
-        }}
-      >
-        ✏️ Click any text to edit it — this infographic is fully customizable
-      </div>
-
+      
       {/* Title */}
       <div style={{ textAlign: "center", marginBottom: 20 }}>
         <h1 style={{ fontSize: 28, fontWeight: 800, color: C.white, margin: "0 0 6px 0" }}>
