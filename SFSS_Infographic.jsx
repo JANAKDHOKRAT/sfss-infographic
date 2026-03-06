@@ -12,7 +12,8 @@ const C = {
   white: "#FFFFFF",
   light: "#B0C4DE",
   muted: "#607B96",
-};    // ============== THIS IS THE NEW CODE YOU PROVIDED ==============
+};    
+// ============== THIS IS THE NEW CODE YOU PROVIDED ==============
 // I renamed it from SFSSInfographic to VisualStoryboardSection
 const VisualStoryboardSection = () => {
   return (
